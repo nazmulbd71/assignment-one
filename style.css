@@ -153,7 +153,87 @@
     height: 400px;
 }
 
-/* Featured Flowers CSS End *//* Contact Part CSS Start */
+/* Featured Flowers CSS End */
+
+/* Buying Flower Section Start */
+#buy-flower-main {
+    width: 80%;
+    margin: 70px auto;
+}
+
+#buy-flower-header {
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#buy-flower-header span {
+    color: #E55473;
+}
+
+#buy-flower-paragraph {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+#flower-cart {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto;
+}
+
+#flower-cart img {
+    width: 300px;
+    height: 300px;
+}
+
+#flower-cart-div-one {
+    padding: 25px;
+    border-radius: 20px;
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+#flower-cart-div-one h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+#flower-cart-div-one p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+#buy-now-btn {
+    background-color: #E55473;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    transition: all 0.50s;
+}
+
+#buy-now-btn:hover {
+    background-color: black;
+    color: white;
+    transform: translateY(-8px);
+    box-shadow: 0 5px 5px 5px red;
+}
+
+/* Buying Flower Section End */
+
+/* Contact Part CSS Start */
 #contact-main {
     width: 80%;
     height: 300px;
@@ -290,3 +370,103 @@
 }
 
 /* Social Part End */
+
+/* Latest Deal Start */
+#latest-deal-main {
+    background-image: url('./flower-assets/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 80%;
+    height: 400px;
+    margin: 70px auto;
+}
+
+#latest-deal-main-div-one {
+    padding-top: 80px;
+}
+
+.latest-deal-main-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.latest-deal-main-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+#latest-inp-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#latest-input {
+    width: 600px;
+    height: 30px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+#latest-button {
+    padding: 18px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E55473;
+    margin: 20px 20px;
+    color: white;
+    font-size: 15px;
+}
+
+/* Latest Deal End */
+
+/* Body Part CSS End */
+
+/* Footer Part Start */
+#footer-main {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-header span {
+    color: #E55473;
+}
+
+.footer-header {
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.footer-paragraph {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+/* Footer Part End */
