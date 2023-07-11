@@ -153,4 +153,55 @@
     height: 400px;
 }
 
-/* Featured Flowers CSS End */
+/* Featured Flowers CSS End *//* Contact Part CSS Start */
+#contact-main {
+    width: 80%;
+    height: 300px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 10px;
+}
+
+#contact-div-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-div-one img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+#contact-div-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-div-two img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+#contact-div-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-div-three img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+/* Contact Part CSS End */
