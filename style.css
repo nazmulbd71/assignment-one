@@ -53,3 +53,104 @@
 }
 
 /* Banner Part CSS End */
+
+/* Body Part CSS Start */
+
+/* Featured Flowers CSS Start */
+#body-part-one-main {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+#body-part-one-main h1 {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#body-part-one-main p {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+#featured-flower-img {
+    display: flex;
+    margin: 70px auto;
+    width: 80%;
+    justify-content: center;
+}
+
+#featured-flower-img-one {
+    width: 400px;
+    height: 500px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#featured-flower-img-one img {
+    width: 300px;
+    height: 400px;
+}
+
+.pink-flower {
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+#featured-flower-img-two {
+    width: 400px;
+    height: 500px;
+    margin: 0 20px;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.blue-flower {
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+#featured-flower-img-two img {
+    width: 300px;
+    height: 400px;
+}
+
+#featured-flower-img-three {
+    width: 400px;
+    height: 500px;
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.green-flower {
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+#featured-flower-img-three img {
+    width: 300px;
+    height: 400px;
+}
+
+/* Featured Flowers CSS End */
